@@ -1,0 +1,214 @@
+body { font-family: Arial,Helvetica,"微软雅黑","宋体",sans-serif; }
+
+
+/* For Required fields - puts a yellow background color on inputs */
+input.highlight, select.highlight, textarea.highlight {
+    background-color: #FFC;
+}
+.search_result_list thead th {
+    text-align: center;
+}
+.search_result_list .cell_center {
+    text-align: center;
+}
+.search_result_list .cell_right {
+    text-align: right;
+}
+.search_result_list .check_column {
+    width: 20px;
+}
+.error_message {
+    color: #b94a48;
+}
+.page-header-p{
+    margin:10px 0 20px;
+}
+.align_right {
+    text-align: right;
+}
+.align_center {
+    text-align: center;
+}
+input.currency {
+    width: 150px;
+}
+/*定义成well的区段，使用这个css让内部控件靠左显示*/
+.fly_left_well {
+    width: 960px;
+}
+.fly_left_well .control-group {
+    margin-left:-90px;
+}
+/*页脚专用样式*/
+#page_footer {
+    padding: 0;
+}
+#page_footer a {
+    color: #333333;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+#page_footer a:hover{
+    color: #0088cc;
+    text-decoration: none;
+}
+/*版本号显示样式*/
+.version_no {
+    font-size: 0.9em;
+    color:#696969;
+}
+.page_header {
+    margin: 0 0 10px;
+    padding: 0;
+    width: 100%;
+    height: 36px;
+}
+/*搜索框样式*/
+.page_header .search_box {
+    margin-top: -42px;
+    margin-right: 10px;
+    float:right;
+}
+.page_header .bc {
+    padding: 8px 2px;
+    margin: 0 0 10px;
+    list-style: none;
+}
+.page_header .bc li {
+    display: inline-block;
+    *display: inline;
+    /* IE7 inline-block hack */
+    *zoom: 1;
+    text-shadow: 0 1px 0 #ffffff;
+}
+.page_header .bc .divider {
+    padding: 0 5px;
+    color: #ccc;
+}
+.page_header .bc .active {
+    color: #999999;
+}
+/*限制输入框只能输入数字*/
+.numberic_only {
+    ime_mode:disabled !important;
+}
+.hiddenRow {
+    padding: 0 !important;
+}
+.floated {
+    float:left;
+}
+.inline {
+    display: inline-block;
+}
+
+.dropdown_city {
+    height: 208px;
+    overflow: auto;
+}
+
+/*模式弹出窗口专用*/
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    cursor: default;
+    left: 0;
+    opacity: 0;
+    filter:alpha(opacity=0); /* For IE8 and earlier */
+    position: fixed;
+    right: 0;
+    top: 0;
+    text-align: center;
+    z-index: 2000;
+}
+
+.popup {
+    background-color: #fff;
+    border: 2px solid #444;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+    opacity: 0;
+    filter:alpha(opacity=1); /* For IE8 and earlier */
+    z-index: 1001;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    height: 400px;
+    width: 800px;
+    overflow: hidden;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/*Ajax加载专用Logo的样式*/
+.ajax_logo {
+    display: none;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    float: right;
+    padding: 4px 6px;
+    background-color: #ff3300;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 1.1em;
+    width:60px;
+    text-align: center;
+    vertical-align: middle;
+    height:18px;
+}
+
+.splash_panel {
+    display: none;
+    z-index: 9999;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    padding: 4px 6px;
+    background-color: #ff3300;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 1.4em;
+    width:320px;
+    text-align: center;
+    vertical-align: middle;
+    height:18px;
+}
+
+/*网站维护首页展示条*/
+.maintain_notice {
+    position:absolute;
+    z-index:99998;
+    top:0;
+    left:0;
+    height: 36px;
+    width: 100%;
+    font-size: 1.10em;
+    color: #c09853;
+    text-shadow: 0 rgba(255,255,255,0.5);
+    background-color: #fcf8e3;
+    text-align: center
+}
+
+.maintain_notice .maintain_notice_in {
+    height: 26px;
+    line-height: 32px;
+    overflow: hidden;
+    position: relative
+}
+
+#maintainClose {
+    position:absolute;
+    z-index:99999;
+    right:0;
+    cursor: pointer;
+    font-size: 28px;
+    color: #000000;
+}
